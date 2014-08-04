@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script src="content.js"></script>
+</head>
+<body>
+
+
+
+<div ng-app="myApp">
+
+    <div ng-controller="MyCtrl">
+        <my-download id="content" get-data="getBlob()" />
+         <div><a ng-click="getBlob()">Download file</a> </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
